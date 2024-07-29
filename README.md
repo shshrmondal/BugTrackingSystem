@@ -1,7 +1,17 @@
 # BugTrackingSystem  
 # Overview  
 
-This is a console-based project management system with distinct roles and functionalities for Admin, Manager, and Employee. The application supports role-specific access and operations, making it suitable for managing projects, employees, and bug reports effectively.  
+This console-based project management system provides role-specific access for Admin, Manager, and Employee, ensuring secure and organized management of projects, employees, and bug reports. The system enforces strict role-based access control, preventing unauthorized access to various parts of the system.    
+
+Authentication  
+Login Process  
+ID and Password: Users authenticate using their empCode (ID) and password.
+Role Verification: Post-login, the system verifies the user’s role to determine access to the appropriate console.
+Role-Based Access
+Console Access Control:
+Admin Console: Accessible only to users with the Admin role. Admins cannot access Manager or Employee consoles.
+Manager Console: Accessible only to users with the Manager role. Managers cannot access Admin or Employee consoles.
+Employee Console: Accessible only to users with the Employee role. Employees cannot access Admin or Manager consoles.
 
 ### Admin Console  
 
@@ -98,3 +108,6 @@ The system uses a relational database with the following tables:
 
   Snip of Console  
   ![Bug1](https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756) 
+
+Navigation  
+
