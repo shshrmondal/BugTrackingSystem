@@ -5,13 +5,13 @@ This console-based project management system provides role-specific access for A
 
 Authentication  
 Login Process  
-ID and Password: Users authenticate using their empCode (ID) and password.
-Role Verification: Post-login, the system verifies the user’s role to determine access to the appropriate console.
-Role-Based Access
-Console Access Control:
-Admin Console: Accessible only to users with the Admin role. Admins cannot access Manager or Employee consoles.
-Manager Console: Accessible only to users with the Manager role. Managers cannot access Admin or Employee consoles.
-Employee Console: Accessible only to users with the Employee role. Employees cannot access Admin or Manager consoles.
+ID and Password: Users authenticate using their empCode (ID) and password.  
+Role Verification: Post-login, the system verifies the user’s role to determine access to the appropriate console.  
+Role-Based Access  
+Console Access Control:  
+Admin Console: Accessible only to users with the Admin role. Admins cannot access Manager or Employee consoles.  
+Manager Console: Accessible only to users with the Manager role. Managers cannot access Admin or Employee consoles.  
+Employee Console: Accessible only to users with the Employee role. Employees cannot access Admin or Manager consoles.  
 
 ### Admin Console  
 
