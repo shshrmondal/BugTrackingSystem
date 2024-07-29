@@ -97,4 +97,4 @@ The system uses a relational database with the following tables:
   - `bugSeverity` (VARCHAR(20)) - Severities include Critical, Major, Medium, Low  
 
   Snip of Console
-  https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756  
+  ![Bug1](https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756) 
