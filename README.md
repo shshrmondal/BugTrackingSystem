@@ -109,5 +109,13 @@ The system uses a relational database with the following tables:
   Snip of Console  
   ![Bug1](https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756) 
 
-Navigation  
+Role-Based Console Navigation  
+Admin Console: Only accessible to users with the Admin role. Admins can manage both Manager and Employee accounts, view projects, and access bug reports.  
+
+Manager Console: Accessible to users with the Manager role. Managers can manage projects and bugs but cannot access Admin or Employee functions.  
+
+Employee Console: Available to users with the Employee role. Employees can manage their profiles and, depending on their specific role (Tester or Developer), interact with bug reports.  
+
+Tester: Can add new bug reports.  
+Developer: Can update bug statuses, view bugs, and access bug details.  
 
