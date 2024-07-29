@@ -107,7 +107,8 @@ The system uses a relational database with the following tables:
   - `bugSeverity` (VARCHAR(20)) - Severities include Critical, Major, Medium, Low  
 
   Snip of Console  
-  ![Bug1](https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756) 
+  ![Bug1](https://github.com/user-attachments/assets/22020688-2cb2-4e8c-bd9c-ca6367f69756)
+  ![Bug2](https://github.com/user-attachments/assets/014a9cd9-c478-4098-905b-dfec54f51aa5)  
 
 Role-Based Console Navigation  
 Admin Console: Only accessible to users with the Admin role. Admins can manage both Manager and Employee accounts, view projects, and access bug reports.  
