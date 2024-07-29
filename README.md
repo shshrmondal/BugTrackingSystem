@@ -120,3 +120,6 @@ Employee Console: Available to users with the Employee role. Employees can manag
 Tester: Can add new bug reports.  
 Developer: Can update bug statuses, view bugs, and access bug details.  
 
+Contributions
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to contact me @shshrmondal@gmail.com.
+
